@@ -1,0 +1,2358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dash UI - The Admin Panel</title>
+
+    <!-- Font Css -->
+    <link rel="stylesheet" href="css/font.css">
+
+    <!-- Style Css -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/dropbox.png">
+
+
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="fontawesome-free-6.4.0-web/css/all.min.css">
+
+</head>
+
+<body>
+    <!-- Side bar -->
+    <div class="side-bar">
+        <div class="nav-link">
+            <div class="left-head">
+                <a href="#">
+                    <img src="images/logo.svg" alt="logo">
+                </a>
+            </div>
+        </div>
+        <!-- Sidebar Links -->
+        <div class="link-main">
+            <ul>
+                <li class="link-main-li">
+                    <a href="#" class="main-dashboard">
+                        <div class="home-icon">
+                            <i class="fa-solid fa-house"></i>
+                        </div>
+
+                        <div class="mid-txt">
+                            Dashboard
+                        </div>
+
+                        <div class="right-icon">
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                    </a>
+                    <!-- Drop down -->
+                    <div class="drop-down">
+                        <ul class="drop-down-ul">
+                            <li class="drop-down-li">
+                                <a href="#" class="drop-down-a">
+                                    Analytics
+                                </a>
+                            </li>
+                            <li class="drop-down-li">
+                                <a href="#" class="drop-down-a">
+                                    Project
+                                </a>
+                            </li>
+                            <li class="drop-down-li">
+                                <a href="#" class="drop-down-a">
+                                    Ecommerce
+                                </a>
+                            </li>
+                            <li class="drop-down-li">
+                                <a href="#" class="drop-down-a">
+                                    CRM
+                                </a>
+                            </li>
+                            <li class="drop-down-li">
+                                <a href="#" class="drop-down-a">
+                                    Finance
+                                </a>
+                            </li>
+                            <li class="drop-down-li">
+                                <a href="#" class="drop-down-a">
+                                    Blog
+                                </a>
+                            </li>
+
+
+                        </ul>
+
+
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+
+
+        <!-- Apps Links -->
+        <div class="apps-main">
+            <h3 class="apps-txt1">
+                APPS
+            </h3>
+        </div>
+
+        <!-- Calender -->
+        <div class="link-main">
+            <ul>
+                <li class="link-main-li">
+                    <a href="#" class="main-dashboard">
+                        <div class="home-icon">
+                            <i class="fa-regular fa-calendar"></i>
+                        </div>
+
+                        <div class="mid-txt">
+                            Calender
+                        </div>
+
+                        <!-- <div class="right-icon">
+                                        <i class="fa-solid fa-chevron-down"></i>
+                                    </div> -->
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+
+
+        <!-- Chat -->
+        <div class="link-main">
+            <ul>
+                <li class="link-main-li">
+                    <a href="#" class="main-dashboard">
+                        <div class="home-icon">
+                            <i class="fa-regular fa-message"></i>
+                        </div>
+
+                        <div class="mid-txt">
+                            Chat
+                        </div>
+
+                        <!-- <div class="right-icon">
+                                        <i class="fa-solid fa-chevron-down"></i>
+                                    </div> -->
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+
+        <!-- Ecommerce -->
+        <div class="link-main">
+            <ul>
+                <li class="link-main-li">
+                    <a href="#" class="main-dashboard">
+                        <div class="home-icon">
+                            <i class="fa-solid fa-cart-arrow-down"></i>
+                        </div>
+
+                        <div class="mid-txt">
+                            Ecommerce
+                        </div>
+
+                        <div class="right-icon">
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                    </a>
+                    <!-- Drop down -->
+                    <div class="drop-down">
+                        <ul class="drop-down-ul">
+                            <li class="drop-down-li">
+                                <a href="#" class="drop-down-a">
+                                    Products
+                                </a>
+                            </li>
+                            <li class="drop-down-li">
+                                <a href="#" class="drop-down-a">
+                                    Product Detail
+                                </a>
+                            </li>
+                            <li class="drop-down-li">
+                                <a href="#" class="drop-down-a">
+                                    Add Product
+                                </a>
+                            </li>
+                            <li class="drop-down-li">
+                                <a href="#" class="drop-down-a">
+                                    Orders
+                                </a>
+                            </li>
+                            <li class="drop-down-li">
+                                <a href="#" class="drop-down-a">
+                                    Orders Detail
+                                </a>
+                            </li>
+                            <li class="drop-down-li">
+                                <a href="#" class="drop-down-a">
+                                    Shopping Cart
+                                </a>
+                            </li>
+                            <li class="drop-down-li">
+                                <a href="#" class="drop-down-a">
+                                    Checkout
+                                </a>
+                            </li>
+                            <li class="drop-down-li">
+                                <a href="#" class="drop-down-a">
+                                    Customer
+                                </a>
+                            </li>
+                            <li class="drop-down-li">
+                                <a href="#" class="drop-down-a">
+                                    Seller
+                                </a>
+                            </li>
+
+
+
+                        </ul>
+
+
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+
+        <!-- Email -->
+
+        <div class="link-main">
+            <ul>
+                <li class="link-main-li">
+                    <a href="#" class="main-dashboard">
+                        <div class="home-icon">
+                            <i class="fa-regular fa-envelope"></i>
+                        </div>
+
+                        <div class="mid-txt">
+                            Email
+                        </div>
+
+                        <div class="right-icon">
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                    </a>
+                    <!-- Drop down -->
+                    <div class="drop-down">
+                        <ul class="drop-down-ul">
+                            <li class="drop-down-li">
+                                <a href="#" class="drop-down-a">
+                                    Inbox
+                                </a>
+                            </li>
+                            <li class="drop-down-li">
+                                <a href="#" class="drop-down-a">
+                                    Details
+                                </a>
+                            </li>
+                            <li class="drop-down-li">
+                                <a href="#" class="drop-down-a">
+                                    Draft
+                                </a>
+                            </li>
+
+
+
+
+                        </ul>
+
+
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+
+
+        <!-- Kanban -->
+
+        <div class="link-main">
+            <ul>
+                <li class="link-main-li">
+                    <a href="#" class="main-dashboard">
+                        <div class="home-icon">
+                            <i class="fa-regular fa-map"></i>
+                        </div>
+
+                        <div class="mid-txt">
+                            Kanban
+                        </div>
+
+                        <div class="right-icon">
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                    </a>
+                    <!-- Drop down -->
+                    <div class="drop-down">
+                        <ul class="drop-down-ul">
+                            <li class="drop-down-li">
+                                <a href="#" class="drop-down-a">
+                                    Grid
+                                </a>
+                            </li>
+                            <li class="drop-down-li">
+                                <a href="#" class="drop-down-a">
+                                    List
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+
+
+
+        <!-- Project -->
+
+        <div class="link-main">
+            <ul>
+                <li class="link-main-li">
+                    <a href="#" class="main-dashboard">
+                        <div class="home-icon">
+                            <i class="fa-solid fa-sheet-plastic"></i>
+                        </div>
+
+                        <div class="mid-txt">
+                            Project
+                        </div>
+
+                        <div class="right-icon">
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                    </a>
+                    <!-- Drop down -->
+                    <div class="drop-down">
+                        <ul class="drop-down-ul">
+                            <li class="drop-down-li">
+                                <a href="#" class="drop-down-a">
+                                    Grid
+                                </a>
+                            </li>
+                            <li class="drop-down-li">
+                                <a href="#" class="drop-down-a">
+                                    List
+                                </a>
+                            </li>
+                            <li class="drop-down-li">
+                                <a href="#" class="drop-down-a">
+                                    Single
+                                </a>
+                            </li>
+                            <li class="drop-down-li">
+                                <a href="#" class="drop-down-a">
+                                    Create Project
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+
+
+        <!-- File Manager -->
+        <div class="link-main">
+            <ul>
+                <li class="link-main-li">
+                    <a href="#" class="main-dashboard">
+                        <div class="home-icon">
+                            <i class="fa-regular fa-folder-closed"></i>
+                        </div>
+
+                        <div class="mid-txt">
+                            File Manager
+                        </div>
+
+                        <!-- <div class="right-icon">
+                                        <i class="fa-solid fa-chevron-down"></i>
+                                    </div> -->
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+
+
+
+
+
+        <!-- CRM -->
+
+        <div class="link-main">
+            <ul>
+                <li class="link-main-li">
+                    <a href="#" class="main-dashboard">
+                        <div class="home-icon">
+                            <i class="fa-solid fa-chart-pie"></i>
+                        </div>
+
+                        <div class="mid-txt">
+                            CRM
+                        </div>
+
+                        <div class="right-icon">
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                    </a>
+                    <!-- Drop down -->
+                    <div class="drop-down">
+                        <ul class="drop-down-ul">
+                            <li class="drop-down-li">
+                                <a href="#" class="drop-down-a">
+                                    Contacts
+                                </a>
+                            </li>
+                            <li class="drop-down-li">
+                                <a href="#" class="drop-down-a">
+                                    Company
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+
+
+
+        <!-- Invoice -->
+
+        <div class="link-main">
+            <ul>
+                <li class="link-main-li">
+                    <a href="#" class="main-dashboard">
+                        <div class="home-icon">
+                            <i class="fa-solid fa-file-invoice"></i>
+                        </div>
+
+                        <div class="mid-txt">
+                            Invoice
+                        </div>
+
+                        <div class="right-icon">
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                    </a>
+                    <!-- Drop down -->
+                    <div class="drop-down">
+                        <ul class="drop-down-ul">
+                            <li class="drop-down-li">
+                                <a href="#" class="drop-down-a">
+                                    List
+                                </a>
+                            </li>
+                            <li class="drop-down-li">
+                                <a href="#" class="drop-down-a">
+                                    Detail
+                                </a>
+                            </li>
+                            <li class="drop-down-li">
+                                <a href="#" class="drop-down-a">
+                                    Invoice Generator
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+
+
+
+        <!-- Profile -->
+
+        <div class="link-main">
+            <ul>
+                <li class="link-main-li">
+                    <a href="#" class="main-dashboard">
+                        <div class="home-icon">
+                            <i class="fa-regular fa-user"></i>
+                        </div>
+
+                        <div class="mid-txt">
+                            Profile
+                        </div>
+
+                        <div class="right-icon">
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                    </a>
+                    <!-- Drop down -->
+                    <div class="drop-down">
+                        <ul class="drop-down-ul">
+                            <li class="drop-down-li">
+                                <a href="#" class="drop-down-a">
+                                    Overview
+                                </a>
+                            </li>
+                            <li class="drop-down-li">
+                                <a href="#" class="drop-down-a">
+                                    Project
+                                </a>
+                            </li>
+                            <li class="drop-down-li">
+                                <a href="#" class="drop-down-a">
+                                    Files
+                                </a>
+                            </li>
+                            <li class="drop-down-li">
+                                <a href="#" class="drop-down-a">
+                                    Team
+                                </a>
+                            </li>
+                            <li class="drop-down-li">
+                                <a href="#" class="drop-down-a">
+                                    Followers
+                                </a>
+                            </li>
+                            <li class="drop-down-li">
+                                <a href="#" class="drop-down-a">
+                                    Activity
+                                </a>
+                            </li>
+                            <li class="drop-down-li">
+                                <a href="#" class="drop-down-a">
+                                    Settings
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+
+
+
+
+
+        <!-- Blog -->
+
+        <div class="link-main">
+            <ul>
+                <li class="link-main-li">
+                    <a href="#" class="main-dashboard">
+                        <div class="home-icon">
+                            <i class="fa-brands fa-blogger-b"></i>
+                        </div>
+
+                        <div class="mid-txt">
+                            Blog
+                        </div>
+
+                        <div class="right-icon">
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                    </a>
+                    <!-- Drop down -->
+                    <div class="drop-down">
+                        <ul class="drop-down-ul">
+                            <li class="drop-down-li">
+                                <a href="#" class="drop-down-a">
+                                    Author
+                                </a>
+                            </li>
+                            <li class="drop-down-li">
+                                <a href="#" class="drop-down-a">
+                                    Detail
+                                </a>
+                            </li>
+                            <li class="drop-down-li">
+                                <a href="#" class="drop-down-a">
+                                    Create Post
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+
+
+
+        <!-- layout and pages -->
+        <div class="apps-main">
+            <h3 class="apps-txt1">
+                LAYOUTS & PAGES
+            </h3>
+        </div>
+
+
+
+
+
+        <!-- Pages -->
+
+        <div class="link-main">
+            <ul>
+                <li class="link-main-li">
+                    <a href="#" class="main-dashboard">
+                        <div class="home-icon">
+                            <i class="fa-solid fa-sheet-plastic"></i>
+                        </div>
+
+                        <div class="mid-txt">
+                            Pages
+                        </div>
+
+                        <div class="right-icon">
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                    </a>
+                    <!-- Drop down -->
+                    <div class="drop-down">
+                        <ul class="drop-down-ul">
+                            <li class="drop-down-li">
+                                <a href="#" class="drop-down-a">
+                                    Starter
+                                </a>
+                            </li>
+                            <li class="drop-down-li">
+                                <a href="#" class="drop-down-a">
+                                    Pricing
+                                </a>
+                            </li>
+                            <li class="drop-down-li">
+                                <a href="#" class="drop-down-a">
+                                    Maintenance
+                                </a>
+                            </li>
+                            <li class="drop-down-li">
+                                <a href="#" class="drop-down-a">
+                                    404 Error
+                                </a>
+                            </li>
+                            <li class="drop-down-li">
+                                <a href="#" class="drop-down-a">
+                                    Coming Soon
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+
+
+
+
+        <!-- Authentication -->
+
+        <div class="link-main">
+            <ul>
+                <li class="link-main-li">
+                    <a href="#" class="main-dashboard">
+                        <div class="home-icon">
+                            <i class="fa-solid fa-lock"></i>
+                        </div>
+
+                        <div class="mid-txt">
+                            Authentication
+                        </div>
+
+                        <div class="right-icon">
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                    </a>
+                    <!-- Drop down -->
+                    <div class="drop-down">
+                        <ul class="drop-down-ul">
+                            <li class="drop-down-li">
+                                <a href="#" class="drop-down-a">
+                                    Sign In
+                                </a>
+                            </li>
+                            <li class="drop-down-li">
+                                <a href="#" class="drop-down-a">
+                                    Sign Up
+                                </a>
+                            </li>
+                            <li class="drop-down-li">
+                                <a href="#" class="drop-down-a">
+                                    Forget Password
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+
+
+
+
+        <!-- Layouts -->
+
+        <div class="link-main">
+            <ul>
+                <li class="link-main-li">
+                    <a href="#" class="main-dashboard">
+                        <div class="home-icon">
+                            <i class="fa-solid fa-lock"></i>
+                        </div>
+
+                        <div class="mid-txt">
+                            Layouts
+                        </div>
+
+                        <div class="right-icon">
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                    </a>
+                    <!-- Drop down -->
+                    <div class="drop-down">
+                        <ul class="drop-down-ul">
+                            <li class="drop-down-li">
+                                <a href="#" class="drop-down-a">
+                                    Default
+                                </a>
+                            </li>
+                            <li class="drop-down-li">
+                                <a href="#" class="drop-down-a">
+                                    Horizontal
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+
+
+
+        <!-- UI component -->
+        <div class="apps-main">
+            <h3 class="apps-txt1">
+                UI COMPONENTS
+            </h3>
+        </div>
+
+
+
+
+        <!-- Components -->
+
+        <div class="link-main">
+            <ul>
+                <li class="link-main-li">
+                    <a href="#" class="main-dashboard">
+                        <div class="home-icon">
+                            <i class="fa-solid fa-cube"></i>
+                        </div>
+
+                        <div class="mid-txt">
+                            Components
+                        </div>
+
+                        <div class="right-icon">
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                    </a>
+                    <!-- Drop down -->
+                    <div class="drop-down">
+                        <ul class="drop-down-ul">
+                            <li class="drop-down-li">
+                                <a href="#" class="drop-down-a">
+                                    Accordions
+                                </a>
+                            </li>
+                            <li class="drop-down-li">
+                                <a href="#" class="drop-down-a">
+                                    Alert
+                                </a>
+                            </li>
+                            <li class="drop-down-li">
+                                <a href="#" class="drop-down-a">
+                                    Badge
+                                </a>
+                            </li>
+                            <li class="drop-down-li">
+                                <a href="#" class="drop-down-a">
+                                    Breadcrumb
+                                </a>
+                            </li>
+                            <li class="drop-down-li">
+                                <a href="#" class="drop-down-a">
+                                    Buttons
+                                </a>
+                            </li>
+                            <li class="drop-down-li">
+                                <a href="#" class="drop-down-a">
+                                    Button Group
+                                </a>
+                            </li>
+                            <li class="drop-down-li">
+                                <a href="#" class="drop-down-a">
+                                    Card
+                                </a>
+                            </li>
+                            <li class="drop-down-li">
+                                <a href="#" class="drop-down-a">
+                                    Corousel
+                                </a>
+                            </li>
+                            <li class="drop-down-li">
+                                <a href="#" class="drop-down-a">
+                                    Close Button
+                                </a>
+                            </li>
+                            <li class="drop-down-li">
+                                <a href="#" class="drop-down-a">
+                                    Collapse
+                                </a>
+                            </li>
+                            <li class="drop-down-li">
+                                <a href="#" class="drop-down-a">
+                                    Dropdowns
+                                </a>
+                            </li>
+                            <li class="drop-down-li">
+                                <a href="#" class="drop-down-a">
+                                    Forms
+                                </a>
+                            </li>
+                            <li class="drop-down-li">
+                                <a href="#" class="drop-down-a">
+                                    List Group
+                                </a>
+                            </li>
+                            <li class="drop-down-li">
+                                <a href="#" class="drop-down-a">
+                                    Modal
+                                </a>
+                            </li>
+                            <li class="drop-down-li">
+                                <a href="#" class="drop-down-a">
+                                    Navs and tabs
+                                </a>
+                            </li>
+                            <li class="drop-down-li">
+                                <a href="#" class="drop-down-a">
+                                    Navbar
+                                </a>
+                            </li>
+                            <li class="drop-down-li">
+                                <a href="#" class="drop-down-a">
+                                    Offcanvas
+                                </a>
+                            </li>
+                            <li class="drop-down-li">
+                                <a href="#" class="drop-down-a">
+                                    Pagination
+                                </a>
+                            </li>
+                            <li class="drop-down-li">
+                                <a href="#" class="drop-down-a">
+                                    Placeholders
+                                </a>
+                            </li>
+                            <li class="drop-down-li">
+                                <a href="#" class="drop-down-a">
+                                    Popovers
+                                </a>
+                            </li>
+                            <li class="drop-down-li">
+                                <a href="#" class="drop-down-a">
+                                    Progress
+                                </a>
+                            </li>
+                            <li class="drop-down-li">
+                                <a href="#" class="drop-down-a">
+                                    Scrollspy
+                                </a>
+                            </li>
+                            <li class="drop-down-li">
+                                <a href="#" class="drop-down-a">
+                                    Spinners
+                                </a>
+                            </li>
+                            <li class="drop-down-li">
+                                <a href="#" class="drop-down-a">
+                                    Tables
+                                </a>
+                            </li>
+                            <li class="drop-down-li">
+                                <a href="#" class="drop-down-a">
+                                    Toasts
+                                </a>
+                            </li>
+                            <li class="drop-down-li">
+                                <a href="#" class="drop-down-a">
+                                    Tooltips
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+
+
+
+
+        <!-- Menu Level -->
+
+        <div class="link-main">
+            <ul>
+                <li class="link-main-li">
+                    <a href="#" class="main-dashboard">
+                        <div class="home-icon">
+                            <i class="fa-solid fa-turn-down"></i>
+                        </div>
+
+                        <div class="mid-txt">
+                            Menu Level
+                        </div>
+
+                        <div class="right-icon">
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                    </a>
+                    <!-- Drop down -->
+                    <div class="drop-down">
+                        <ul class="drop-down-ul">
+                            <li class="drop-down-li">
+                                <a href="#" class="drop-down-a">
+                                    Two Level
+                                </a>
+                            </li>
+                            <li class="drop-down-li">
+                                <a href="#" class="drop-down-a">
+                                    Three Level
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+
+
+        <!-- Documentation -->
+        <div class="apps-main">
+            <h3 class="apps-txt1">
+                DOCUMENTATION
+            </h3>
+        </div>
+
+
+
+
+        <!-- Docs -->
+
+        <div class="link-main">
+            <ul>
+                <li class="link-main-li">
+                    <a href="#" class="main-dashboard">
+                        <div class="home-icon">
+                            <i class="fa-regular fa-folder"></i>
+                        </div>
+
+                        <div class="mid-txt">
+                            Docs
+                        </div>
+
+                        <div class="right-icon">
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                    </a>
+                    <!-- Drop down -->
+                    <div class="drop-down">
+                        <ul class="drop-down-ul">
+                            <li class="drop-down-li">
+                                <a href="#" class="drop-down-a">
+                                    Introduction
+                                </a>
+                            </li>
+                            <li class="drop-down-li">
+                                <a href="#" class="drop-down-a">
+                                    Environment Setup
+                                </a>
+                            </li>
+                            <li class="drop-down-li">
+                                <a href="#" class="drop-down-a">
+                                    Working with Gulp
+                                </a>
+                            </li>
+                            <li class="drop-down-li">
+                                <a href="#" class="drop-down-a">
+                                    Compiled Files
+                                </a>
+                            </li>
+                            <li class="drop-down-li">
+                                <a href="#" class="drop-down-a">
+                                    File Structure
+                                </a>
+                            </li>
+                            <li class="drop-down-li">
+                                <a href="#" class="drop-down-a">
+                                    Ressources & assets
+                                </a>
+                            </li>
+                            <li class="drop-down-li">
+                                <a href="#" class="drop-down-a">
+                                    Changelog
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </li>
+        <!-- hsjfghh -->
+
+        </ul>
+    </div>
+    <!--  -->
+
+    </div>
+
+
+    <!-- Header part -->
+    <header>
+        <div class="container">
+            <div class="row">
+
+
+
+                <!-- right header -->
+
+                <div class="right-head-main">
+                    <div class="right-head">
+
+                        <div class="menu-icon">
+                            <i class="fa-solid fa-bars"></i>
+                        </div>
+
+                        <div class="rightin1">
+
+                            <input type="text" placeholder="Search">
+
+                            <i class="fa-solid fa-magnifying-glass search-icon"></i>
+
+                        </div>
+                    </div>
+
+
+                    <div class="last-head">
+                        <ul class="last-ul">
+                            <li class="last-li">
+                                <i class="fa-solid fa-sun"></i>
+                            </li>
+                            <li class="last-li">
+                                <i class="fa-regular fa-bell"></i>
+                            </li>
+                        </ul>
+
+
+                        <a href="#">
+                            <img src="images/profile.jpg" alt="" width="40px" height="40px">
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+
+
+
+
+
+
+    <!-- Content part -->
+    <main>
+        <div class="main-wrapper">
+            <div class="content">
+                <!-- ecommerce txt -->
+                <div class="ecommerce-txt">
+                    <h2>
+                        Ecommerce
+                    </h2>
+
+                    <button>
+                        <a href="#">
+                            Add Product
+                        </a>
+                    </button>
+                </div>
+
+
+
+                <!-- 4 Boxes -->
+
+                <div class="top-boxes">
+                    <div class="top-first-box w-3">
+                        <div class="first-box-cont">
+                            <!-- inner content1 -->
+                            <div class="orders-txt">
+                                <h3>
+                                    Orders
+                                </h3>
+                                <i class="fa-solid fa-cart-shopping icon-shopping"></i>
+                            </div>
+
+                            <div class="numbers-txt">
+                                <h2>
+                                    5,312
+                                </h2>
+                                <span>
+                                    <i class="fa-solid fa-arrow-down"></i>
+                                    2.29%
+                                </span>
+                            </div>
+
+                            <div class="last-txt">
+                                <h3>
+                                    <a href="#">
+                                        View Orders
+                                    </a>
+                                </h3>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    <div class="top-sec-box w-3">
+                        <div class="sec-box-cont">
+                            <!-- inner content2 -->
+                            <div class="orders-txt">
+                                <h3>
+                                    Revenue
+                                </h3>
+                                <i class="fa-solid fa-dollar-sign icon-shopping"></i>
+                            </div>
+
+                            <div class="numbers-txt">
+                                <h2>
+                                    $8,312
+                                </h2>
+                                <span style="color: green;">
+                                    <i class="fa-solid fa-arrow-down"></i>
+                                    2.29%
+                                </span>
+                            </div>
+
+                            <div class="last-txt">
+                                <h3>
+                                    <a href="#">
+                                        View Earnings
+                                    </a>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="top-third-box w-3">
+                        <div class="third-box-cont">
+                            <!-- inner content3 -->
+                            <div class="orders-txt">
+                                <h3>
+                                    Customer
+                                </h3>
+                                <i class="fa-regular fa-user icon-shopping"></i>
+                            </div>
+
+                            <div class="numbers-txt">
+                                <h2>
+                                    $15,312
+                                </h2>
+                                <span style="color: green;">
+                                    <i class="fa-solid fa-arrow-down"></i>
+                                    5.16%
+                                </span>
+                            </div>
+
+                            <div class="last-txt">
+                                <h3>
+                                    <a href="#">
+                                        All Customer
+                                    </a>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="top-fourth-box w-3">
+                        <div class="fourth-box-cont">
+                            <!-- inner content4 -->
+                            <div class="orders-txt">
+                                <h3>
+                                    Balance
+                                </h3>
+                                <i class="fa-regular fa-credit-card icon-shopping"></i>
+                            </div>
+
+                            <div class="numbers-txt">
+                                <h2>
+                                    $35.64k
+                                </h2>
+                                <!-- <span style="color: green;">
+                                    <i class="fa-solid fa-arrow-down"></i>
+                                    2.29%
+                                </span> -->
+                            </div>
+
+                            <div class="last-txt">
+                                <h3>
+                                    <a href="#">
+                                        Withdraw Money
+                                    </a>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+
+
+
+                <!-- Chart part -->
+
+                <div class="main-chart-part">
+                    <div class="left-chart w-8">
+                        <div class="left-chart-cont">
+                            <div id="chart">
+
+                            </div>
+
+                            <div class="chart-data">
+                                <div class="chart-data1">
+                                    <span class="sans-serif">
+                                        <i class="fa-solid fa-circle circle-icon" style="color: #624bff;"></i>
+                                        Current Week
+                                    </span>
+                                    <h1 class="sans-serif mt-10" style="color: rgb(90, 90, 90);">
+                                        $235,965
+                                    </h1>
+                                </div>
+
+                                <div class="chart-data2">
+                                    <span class="sans-serif">
+                                        <i class="fa-solid fa-circle circle-icon" style="color: #00e396;"></i>
+                                        Past Week
+                                    </span>
+                                    <h1 class="sans-serif mt-10" style="color: rgb(90, 90, 90);">
+                                        $198,214
+                                    </h1>
+                                </div>
+
+                                <div class="chart-data3">
+                                    <span class="sans-serif">
+                                        Today's Earning:
+                                    </span>
+                                    <h1 class="sans-serif mt-10" style="color: rgb(90, 90, 90);">
+                                        $2,562.30
+                                    </h1>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="right-chart w-4">
+                        <div class="right-chart-cont">
+                            <div id="chart1">
+
+                            </div>
+
+                        </div>
+
+                        <div class="right-chart-cont-2">
+                            <div id="chart3">
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+
+                <!-- 3rd Map Section -->
+
+
+                <div class="map-main">
+                    <div class="map-part-left w-4">
+                        <div class="map-part-left-cont">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29752.37276469405!2d72.80963564707001!3d21.230000803484575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04eeb5c1077c1%3A0xf3db03f8cc74c359!2sKatargam%2C%20Surat%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1692186974002!5m2!1sen!2sin"
+                                width="340" height="550" style="border:0; border-radius: 10px;" allowfullscreen=""
+                                loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+
+
+                    <div class="map-part-right w-8">
+                        <div class="map-part-right-cont">
+                            <div class="map-right-inner">
+                                <div class="map-right-top w-9">
+                                    <h3>
+                                        Best Seliing product
+                                    </h3>
+                                </div>
+
+                                <div class="map-right-top2 w-3">
+                                    <span>
+                                        Sort By:
+                                    </span>
+
+                                    <select>
+                                        <option selected>Today</option>
+
+                                        <option value="Yesterday">Yesterday</option>
+
+                                        <option value="Last 7 Days">Last 7 Days</option>
+
+                                        <option value="Last 30 Days">Last 30 Days</option>
+
+                                        <option value="This Month">This Month</option>
+
+                                        <option value="Last Month">Last Month</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <!-- <hr style="margin-top: 20px; color: rgb(194, 194, 194);"> -->
+
+                            <!-- Table part1 -->
+
+                            <table style="margin-top: 20px;">
+                                <tr class="tr1">
+                                    <th class="th1">Image</th>
+                                    <th class="th1">Product Name</th>
+                                    <th class="th1">Invoice</th>
+                                    <th class="th1">QTY</th>
+                                    <th class="th1">Price</th>
+                                    <th class="th1">Order Date</th>
+                                </tr>
+
+
+
+
+                                <!-- 1st table -->
+                                <tbody>
+                                    <!-- 1st row -->
+                                    <tr>
+                                        <td class="td1">
+                                            <a href="#">
+                                                <img src="images/product-1.jpg" alt="" width="50%" height="40px"
+                                                    style="border-radius: 10px;">
+                                            </a>
+                                        </td>
+
+                                        <td class="td1">
+                                            <a href="#">
+                                                Apple Watch
+                                            </a>
+                                        </td>
+
+                                        <td class="td1">
+                                            <a href="#">
+                                                #21345
+                                            </a>
+                                        </td>
+
+                                        <td class="td1">
+                                            1
+                                        </td>
+
+                                        <td class="td1">
+                                            $968.09
+                                        </td>
+
+                                        <td class="td1">
+                                            27-08-2023
+                                        </td>
+                                    </tr>
+
+                                    <!-- 2nd row -->
+
+                                    <tr>
+                                        <td class="td1">
+                                            <a href="#">
+                                                <img src="images/product-2.jpg" alt="" width="50%" height="40px"
+                                                    style="border-radius: 10px;">
+                                            </a>
+                                        </td>
+
+                                        <td class="td1">
+                                            <a href="#">
+                                                Apple Watch Dark
+                                            </a>
+                                        </td>
+
+                                        <td class="td1">
+                                            <a href="#">
+                                                #21344
+                                            </a>
+                                        </td>
+
+                                        <td class="td1">
+                                            1
+                                        </td>
+
+                                        <td class="td1">
+                                            $868.09
+                                        </td>
+
+                                        <td class="td1">
+                                            26-08-2023
+                                        </td>
+                                    </tr>
+
+
+                                    <!-- 3rd row -->
+
+                                    <tr>
+                                        <td class="td1">
+                                            <a href="#">
+                                                <img src="images/product-3.jpg" alt="" width="50%" height="40px"
+                                                    style="border-radius: 10px;">
+                                            </a>
+                                        </td>
+
+                                        <td class="td1">
+                                            <a href="#">
+                                                Apple Headphone
+                                            </a>
+                                        </td>
+
+                                        <td class="td1">
+                                            <a href="#">
+                                                #21343
+                                            </a>
+                                        </td>
+
+                                        <td class="td1">
+                                            1
+                                        </td>
+
+                                        <td class="td1">
+                                            $1268.09
+                                        </td>
+
+                                        <td class="td1">
+                                            25-08-2023
+                                        </td>
+                                    </tr>
+
+
+                                    <!-- 4th row -->
+
+                                    <tr>
+                                        <td class="td1">
+                                            <a href="#">
+                                                <img src="images/product-4.jpg" alt="" width="50%" height="40px"
+                                                    style="border-radius: 10px;">
+                                            </a>
+                                        </td>
+
+                                        <td class="td1">
+                                            <a href="#">
+                                                Apple Watch Dark
+                                            </a>
+                                        </td>
+
+                                        <td class="td1">
+                                            <a href="#">
+                                                #21342
+                                            </a>
+                                        </td>
+
+                                        <td class="td1">
+                                            1
+                                        </td>
+
+                                        <td class="td1">
+                                            $768.09
+                                        </td>
+
+                                        <td class="td1">
+                                            25-08-2023
+                                        </td>
+                                    </tr>
+
+
+                                    <!-- 5th row -->
+
+                                    <tr>
+                                        <td class="td1">
+                                            <a href="#">
+                                                <img src="images/product-5.jpg" alt="" width="50%" height="40px"
+                                                    style="border-radius: 10px;">
+                                            </a>
+                                        </td>
+
+                                        <td class="td1">
+                                            <a href="#">
+                                                T-shirt Blue
+                                            </a>
+                                        </td>
+
+                                        <td class="td1">
+                                            <a href="#">
+                                                #21341
+                                            </a>
+                                        </td>
+
+                                        <td class="td1">
+                                            1
+                                        </td>
+
+                                        <td class="td1">
+                                            $68.09
+                                        </td>
+
+                                        <td class="td1">
+                                            24-08-2023
+                                        </td>
+                                    </tr>
+
+
+
+                                    <!-- 6th row -->
+
+                                    <tr>
+                                        <td class="td1">
+                                            <a href="#">
+                                                <img src="images/product-6.jpg" alt="" width="50%" height="40px"
+                                                    style="border-radius: 10px;">
+                                            </a>
+                                        </td>
+
+                                        <td class="td1">
+                                            <a href="#">
+                                                Apple Watch Dark
+                                            </a>
+                                        </td>
+
+                                        <td class="td1">
+                                            <a href="#">
+                                                #21340
+                                            </a>
+                                        </td>
+
+                                        <td class="td1">
+                                            1
+                                        </td>
+
+                                        <td class="td1">
+                                            $678.09
+                                        </td>
+
+                                        <td class="td1">
+                                            24-08-2023
+                                        </td>
+                                    </tr>
+
+
+                                    <!-- 7th row -->
+
+                                    <tr>
+                                        <td class="td1">
+                                            <a href="#">
+                                                <img src="images/product-7.jpg" alt="" width="50%" height="40px"
+                                                    style="border-radius: 10px;">
+                                            </a>
+                                        </td>
+
+                                        <td class="td1">
+                                            <a href="#">
+                                                Headphone
+                                            </a>
+                                        </td>
+
+                                        <td class="td1">
+                                            <a href="#">
+                                                #21339
+                                            </a>
+                                        </td>
+
+                                        <td class="td1">
+                                            1
+                                        </td>
+
+                                        <td class="td1">
+                                            $568.09
+                                        </td>
+
+                                        <td class="td1">
+                                            22-08-2023
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!-- Last 2 Tables -->
+
+                <div class="last-table">
+                    <div class="last-table-left w-6">
+                        <div class="last-left-cont">
+                            <div class="last-left-top">
+                                <h3>
+                                    Recent Orders
+                                </h3>
+                            </div>
+
+                            <div class="left-scroll-table">
+                                <table style="margin-top: 20px;">
+                                    <tr>
+                                        <th class="th2">Order ID</th>
+                                        <th class="th2">Customer</th>
+                                        <th class="th2">Product</th>
+                                        <th class="th2">Amout</th>
+                                        <th class="th2">Vendor</th>
+                                        <th class="th2">Status</th>
+                                    </tr>
+
+
+
+                                    <tbody>
+                                        <!-- 1st row -->
+                                        <tr>
+                                            <td class="td1">
+                                                <a href="#">
+                                                    #DU0007
+                                                </a>
+                                            </td>
+
+                                            <td class="td1">
+                                                <a href="#">
+                                                    <img src="images/avatar-8.jpg" alt=""  width="30%" height="35px"
+                                                    style="border-radius: 50%;">
+                                                </a>
+                                            </td>
+
+                                            <td class="td1">
+                                                Headphone
+                                            </td>
+
+                                            <td class="td1">
+                                                $99.00
+                                            </td>
+
+                                            <td class="td1">
+                                                DollarSmart
+                                            </td>
+
+                                            <td class="td1">
+                                                Paid
+                                            </td>
+                                        </tr>
+
+
+
+
+
+                                        <!-- 2nd row -->
+                                        <tr>
+                                            <td class="td1">
+                                                <a href="#">
+                                                    #DU0006
+                                                </a>
+                                            </td>
+
+                                            <td class="td1">
+                                                <a href="#">
+                                                    <img src="images/avatar-9.jpg" alt=""  width="30%" height="35px"
+                                                    style="border-radius: 50%;">
+                                                </a>
+                                            </td>
+
+                                            <td class="td1">
+                                                Beauty Lips	
+                                            </td>
+
+                                            <td class="td1">
+                                                $789.00
+                                            </td>
+
+                                            <td class="td1">
+                                                Frcommerce
+                                            </td>
+
+                                            <td class="td1">
+                                                Paid
+                                            </td>
+                                        </tr>
+
+
+
+                                        <!-- 3rd row -->
+                                        <tr>
+                                            <td class="td1">
+                                                <a href="#">
+                                                    #DU0005
+                                                </a>
+                                            </td>
+
+                                            <td class="td1">
+                                                <a href="#">
+                                                    <img src="images/avatar-10.jpg" alt=""  width="30%" height="35px"
+                                                    style="border-radius: 50%;">
+                                                </a>
+                                            </td>
+
+                                            <td class="td1">
+                                                Lady Bag	
+                                            </td>
+
+                                            <td class="td1">
+                                                $52.00
+                                            </td>
+
+                                            <td class="td1">
+                                                Shopperia
+                                            </td>
+
+                                            <td class="td1">
+                                                Cancel
+                                            </td>
+                                        </tr>
+
+
+
+                                        <!-- 4th row -->
+                                        <tr>
+                                            <td class="td1">
+                                                <a href="#">
+                                                    #DU0004
+                                                </a>
+                                            </td>
+
+                                            <td class="td1">
+                                                <a href="#">
+                                                    <img src="images/avatar-11.jpg" alt=""  width="30%" height="35px"
+                                                    style="border-radius: 50%;">
+                                                </a>
+                                            </td>
+
+                                            <td class="td1">
+                                                Headphone
+                                            </td>
+
+                                            <td class="td1">
+                                                $568.00
+                                            </td>
+
+                                            <td class="td1">
+                                                Megaplex
+                                            </td>
+
+                                            <td class="td1">
+                                                Paid
+                                            </td>
+                                        </tr>
+
+
+
+                                        <!-- 5th row -->
+                                        <tr>
+                                            <td class="td1">
+                                                <a href="#">
+                                                    #DU0003
+                                                </a>
+                                            </td>
+
+                                            <td class="td1">
+                                                <a href="#">
+                                                    <img src="images/avatar-12.jpg" alt=""  width="30%" height="35px"
+                                                    style="border-radius: 50%;">
+                                                </a>
+                                            </td>
+
+                                            <td class="td1">
+                                                Furniture
+                                            </td>
+
+                                            <td class="td1">
+                                                $100.00
+                                            </td>
+
+                                            <td class="td1">
+                                                DollarSmart
+                                            </td>
+
+                                            <td class="td1">
+                                                Pending
+                                            </td>
+                                        </tr>
+
+
+
+                                        <!-- 6th row -->
+                                        <tr>
+                                            <td class="td1">
+                                                <a href="#">
+                                                    #DU0002
+                                                </a>
+                                            </td>
+
+                                            <td class="td1">
+                                                <a href="#">
+                                                    <img src="images/avatar-10.jpg" alt=""  width="30%" height="35px"
+                                                    style="border-radius: 50%;">
+                                                </a>
+                                            </td>
+
+                                            <td class="td1">
+                                                Accessories
+                                            </td>
+
+                                            <td class="td1">
+                                                $99.00
+                                            </td>
+
+                                            <td class="td1">
+                                                Cartmax
+                                            </td>
+
+                                            <td class="td1">
+                                                Paid
+                                            </td>
+                                        </tr>
+
+
+
+                                        <!-- 7th row -->
+                                        <tr>
+                                            <td class="td1">
+                                                <a href="#">
+                                                    #DU0001
+                                                </a>
+                                            </td>
+
+                                            <td class="td1">
+                                                <a href="#">
+                                                    <img src="images/avatar-9.jpg" alt=""  width="30%" height="35px"
+                                                    style="border-radius: 50%;">
+                                                </a>
+                                            </td>
+
+                                            <td class="td1">
+                                                Kitchen
+                                            </td>
+
+                                            <td class="td1">
+                                                $99.00
+                                            </td>
+
+                                            <td class="td1">
+                                                Snail Bouque	
+                                            </td>
+
+                                            <td class="td1">
+                                                Paid
+                                            </td>
+                                        </tr>
+
+
+                                        
+
+
+                                        
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+                    <div class="last-table-right w-6">
+                        <div class="last-right-cont">
+                            <div class="map-right-top w-7">
+                                <h3>
+                                    Top Seller
+                                </h3>
+                            </div>
+
+                            <div class="map-right-top2 w-5">
+                                <span>
+                                    Sort By:
+                                </span>
+
+                                <select>
+                                    <option selected>Report</option>
+
+                                    <option value="Yesterday">Report Download</option>
+
+                                    <option value="Last 7 Days">Export</option>
+
+                                    <option value="Last 30 Days">Import</option>
+
+                                </select>
+                            </div>
+                            
+                        </div>
+                        
+
+
+                        <div class="last-tbl">
+                            <table>
+                                <!-- 1st row -->
+                                <tr class="tr1">
+                                    <td class="td1" style="padding: 20px;">
+                                        <a href="#">
+                                            <img src="images/brand-logo-1.svg" alt="">
+                                        </a>
+                                    </td>
+
+                                    <td class="td1" style="padding: 20px;">
+                                        Bryan M. Flores
+                                    </td>
+
+                                    <td class="td1" style="padding: 20px;">
+                                        Beauty Lips
+                                    </td>
+
+                                    <td class="td1" style="padding: 20px;">
+                                        3214
+                                    </td>
+
+
+                                    <td class="td1" style="padding: 20px;">
+                                        $529511
+                                    </td>
+
+                                    <td class="td1" style="padding: 20px;">
+                                        42% 
+                                    </td>
+                                </tr>
+
+
+
+                                <!-- 2nd row -->
+                                <tr class="tr1">
+                                    <td class="td1" style="padding: 20px;">
+                                        <a href="#">
+                                            <img src="images/brand-logo-2.svg" alt="">
+                                        </a>
+                                    </td>
+
+                                    <td class="td1" style="padding: 20px;">
+                                        Mamie Lacasse
+                                    </td>
+
+                                    <td class="td1" style="padding: 20px;">
+                                        Lady Bag	
+                                    </td>
+
+                                    <td class="td1" style="padding: 20px;">
+                                        4213
+                                    </td>
+
+
+                                    <td class="td1" style="padding: 20px;">
+                                        $308719
+                                    </td>
+
+                                    <td class="td1" style="padding: 20px;">
+                                        89% 
+                                    </td>
+                                </tr>
+
+
+
+                                <!-- 3rd row -->
+                                <tr class="tr1">
+                                    <td class="td1" style="padding: 20px;">
+                                        <a href="#">
+                                            <img src="images/brand-logo-3.svg" alt="">
+                                        </a>
+                                    </td>
+
+                                    <td class="td1" style="padding: 20px;">
+                                        Diane Hilbert
+                                    </td>
+
+                                    <td class="td1" style="padding: 20px;">
+                                        Headphone
+                                    </td>
+
+                                    <td class="td1" style="padding: 20px;">
+                                        756
+                                    </td>
+
+
+                                    <td class="td1" style="padding: 20px;">
+                                        $24859
+                                    </td>
+
+                                    <td class="td1" style="padding: 20px;">
+                                        89%
+                                    </td>
+                                </tr>
+
+
+
+                                <!-- 4th row -->
+                                <tr class="tr1">
+                                    <td class="td1" style="padding: 20px;">
+                                        <a href="#">
+                                            <img src="images/brand-logo-4.svg" alt="">
+                                        </a>
+                                    </td>
+
+                                    <td class="td1" style="padding: 20px;">
+                                        Charity Parris
+                                    </td>
+
+                                    <td class="td1" style="padding: 20px;">
+                                        Furniture
+                                    </td>
+
+                                    <td class="td1" style="padding: 20px;">
+                                        252 
+                                    </td>
+
+
+                                    <td class="td1" style="padding: 20px;">
+                                        $3204
+                                    </td>
+
+                                    <td class="td1" style="padding: 20px;">
+                                        63% 
+                                    </td>
+                                </tr>
+
+
+
+                                <!-- 5th row -->
+                                <tr class="tr1">
+                                    <td class="td1" style="padding: 20px;">
+                                        <a href="#">
+                                            <img src="images/brand-logo-5.svg" alt="">
+                                        </a>
+                                    </td>
+
+                                    <td class="td1" style="padding: 20px;">
+                                        Maurice Phillips
+                                    </td>
+
+                                    <td class="td1" style="padding: 20px;">
+                                        Accessories
+                                    </td>
+
+                                    <td class="td1" style="padding: 20px;">
+                                        636
+                                    </td>
+
+
+                                    <td class="td1" style="padding: 20px;">
+                                        $92079
+                                    </td>
+
+                                    <td class="td1" style="padding: 20px;">
+                                        55% 
+                                    </td>
+                                </tr>
+
+
+
+                                <!-- 6th row -->
+                                <tr class="tr1">
+                                    <td class="td1" style="padding: 20px;">
+                                        <a href="#">
+                                            <img src="images/brand-logo-6.svg" alt="">
+                                        </a>
+                                    </td>
+
+                                    <td class="td1" style="padding: 20px;">
+                                        Timothy Doss
+                                    </td>
+
+                                    <td class="td1" style="padding: 20px;">
+                                        Kitchen
+                                    </td>
+
+                                    <td class="td1" style="padding: 20px;">
+                                        522
+                                    </td>
+
+
+                                    <td class="td1" style="padding: 20px;">
+                                        $3204
+                                    </td>
+
+                                    <td class="td1" style="padding: 20px;">
+                                        67%
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+
+
+
+
+
+
+
+    <!-- Fontawesome JS -->
+    <script src="fontawesome-free-6.4.0-web/js/all.min.js"></script>
+
+    <script src="jquery/js/jquery-3.7.0.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+
+
+    <!-- map -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+
+
+
+
+    <script>
+        var options = {
+            series: [{
+                name: 'Current Week',
+                data: [31, 40, 28, 51, 42, 109, 100]
+            }, {
+                name: 'Past Week',
+                data: [11, 32, 45, 32, 34, 52, 41]
+            }],
+            chart: {
+                height: 350,
+                type: 'area'
+            },
+            dataLabels: {
+                enabled: false
+            },
+            stroke: {
+                curve: 'smooth'
+            },
+            xaxis: {
+                type: 'datetime',
+                categories: ["2018-09-19T00:00:00.000Z", "2018-09-19T01:30:00.000Z", "2018-09-19T02:30:00.000Z", "2018-09-19T03:30:00.000Z", "2018-09-19T04:30:00.000Z", "2018-09-19T05:30:00.000Z", "2018-09-19T06:30:00.000Z"]
+            },
+            tooltip: {
+                x: {
+                    format: 'dd/MM/yy HH:mm'
+                },
+            },
+        };
+
+        var chart = new ApexCharts(document.querySelector("#chart"), options);
+        chart.render();
+
+
+
+
+
+
+        // 2nd Chart
+
+
+
+
+        var options = {
+            series: [35.7, 30.2, 22.2, 11.9],
+            chart: {
+                type: 'donut',
+                title: 'Total Sales',
+            },
+            responsive: [{
+                breakpoint: 480,
+                options: {
+                    chart: {
+                        width: 200,
+                    },
+                    legend: {
+                        position: 'bottom',
+                    }
+                }
+            }]
+        };
+
+        var chart = new ApexCharts(document.querySelector("#chart1"), options);
+        chart.render();
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        $(document).ready(function () {
+            $('.main-dashboard').click(function () {
+                $(this).next('.drop-down').slideToggle();
+
+                $(this).next('.drop-down');
+
+                $(this).parent('.link-main-li').parent('ul').parent('.link-main').siblings('.link-main').children('ul').children('.link-main-li').children('.drop-down').slideUp();
+            })
+        })
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        var options = {
+            series: [44, 55, 41, 17, 15],
+            chart: {
+                width: 380,
+                type: 'donut',
+                dropShadow: {
+                    enabled: true,
+                    color: '#111',
+                    top: -1,
+                    left: 3,
+                    blur: 3,
+                    opacity: 0.2
+                }
+            },
+            stroke: {
+                width: 0,
+            },
+            plotOptions: {
+                pie: {
+                    donut: {
+                        labels: {
+                            show: true,
+                            total: {
+                                showAlways: true,
+                                show: true
+                            }
+                        }
+                    }
+                }
+            },
+            labels: ["Comedy", "Action", "SciFi", "Drama", "Horror"],
+            dataLabels: {
+                dropShadow: {
+                    blur: 3,
+                    opacity: 0.8
+                }
+            },
+            fill: {
+                type: 'pattern',
+                opacity: 1,
+                pattern: {
+                    enabled: true,
+                    style: ['verticalLines', 'squares', 'horizontalLines', 'circles', 'slantedLines'],
+                },
+            },
+            states: {
+                hover: {
+                    filter: 'none'
+                }
+            },
+            theme: {
+                palette: 'palette2'
+            },
+            title: {
+                text: "Favourite Movie Type"
+            },
+            responsive: [{
+                breakpoint: 480,
+                options: {
+                    chart: {
+                        width: 200
+                    },
+                    legend: {
+                        position: 'bottom'
+                    }
+                }
+            }]
+        };
+
+        var chart = new ApexCharts(document.querySelector("#chart3"), options);
+        chart.render();
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery</title>
+
+    <style>
+        ul
+        {
+            display: flex;
+        }
+
+        li
+        {
+            list-style: none;
+            background-color: yellow;
+            margin-right: 10px;
+            padding: 10px;
+        }
+
+        a
+        {
+            text-decoration: none;
+        }
+
+        .active
+        {
+            color: red;
+            border: 2px solid green;
+            background: none;
+        }
+    </style>
+
+    <!-- <style>
+        .active
+        {
+            color: red;
+            font-size: 40px;
+            border: 2px solid yellow;
+        }
+    </style> -->
+</head>
+<body>
+    
+    <!-- <h1 class="h1class">
+        Hello, My name is Krunal.
+    </h1>
+
+
+    <p id="ptag">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, impedit totam dolores sed sunt veniam optio ab aut incidunt, tempore soluta nesciunt cupiditate itaque nostrum nobis reiciendis provident explicabo non?
+    </p>
+
+
+    <button class="hidebtn">
+        Hide
+    </button>
+
+
+    <button class="showbtn">
+        Show
+    </button>
+
+
+    <button class="togglebtn">
+        Toggle
+    </button> -->
+
+
+
+
+
+    <ul>
+        <li class="active">
+            <a href="#">Home</a>
+        </li>
+
+        <li class="active">
+            <a href="#">About</a>
+        </li>
+
+        <li class="active">
+            <a href="#">Service</a>
+        </li>
+
+        <li class="active">
+            <a href="#">Contact</a>
+        </li>
+    </ul>
+
+
+    <script src="js/jquery-3.7.0.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            //Hide everything
+            // $('.hidebtn').click(function(){
+            //     $('.h1class').hide();
+            // })
+
+
+            //Show everything
+            // $('.showbtn').click(function(){
+            //     $('.h1class').show();
+            // })
+
+
+            //Toggle everything
+            // $('.togglebtn').click(function(){
+            //     $('.h1class').toggle();
+            // })
+
+
+
+            //Double Click
+            // $('.hidebtn').dblclick(function(){
+            //     $('.h1class').hide();
+            // })
+
+
+
+            //Mouse Event:- Mouseenter, Mouseleave
+            // $('.hidebtn').mouseenter(function(){
+            //     $('.h1class').css({"color":"red"});
+            // })
+
+
+            //Keyboard Event:- Keydown, Keyup
+            // $('.hidebtn').keydown(function(){
+            //     $('.h1class').css({"color":"yellow"});
+            // })
+
+
+            // $('.hidebtn').keyup(function(){
+            //     $('.h1class').css({"color":"green"});
+            // })
+            
+
+
+
+            //Add Class
+            // $('li').click(function(){
+            //     $(this).addClass('active');
+            // })
+
+            //Remove Class
+            // $('li').click(function(){
+            //     $(this).removeClass('active');
+            // })
+
+            //Toggle Class
+            $('li').click(function(){
+                $(this).toggleClass('active');
+            })
+        })
+
+
+
+
+
+
+
+
+
+    </script>
+
+
+    
+</body>
+</html>
